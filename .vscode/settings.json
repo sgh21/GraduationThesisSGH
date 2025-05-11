@@ -2,7 +2,15 @@
     "security.workspace.trust.untrustedFiles": "open",
     "editor.fontSize": 18,
     // ======================== LaTeX 设置 BEGIN  ========================
-    "latex-workshop.latex.autoBuild.run": "never",  //关闭保存时自动编译
+    "latex-workshop.latex.autoBuild.run": "onSave",  //关闭保存时自动编译
+    "latex-workshop.latex.texDirs": [
+        ".",
+        "./tex"  //tex文件存放位置
+    ],
+    "latex-workshop.latex.bibDirs": [
+        ".",
+        "./bib"  //bib文件存放位置
+    ],
     "latex-workshop.latex.outDir": "%DIR%/build",  //编译后文件存放位置
     "latex-workshop.latex.tools": [  
         {
