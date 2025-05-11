@@ -28,7 +28,7 @@
             "name": "bibtex",
             "command": "bibtex",
             "args": [
-                "%DOCFILE%"
+                "build/%DOCFILE%"
             ]
         }
     ],
