@@ -52,6 +52,8 @@
     ],
 
     "latex-workshop.view.pdf.viewer": "tab",  //Alt+Ctrl+J 正向索引  
-    "latex-workshop.view.pdf.internal.synctex.keybinding": "ctrl-click",  //Ctrl+右击 反向索引
+    "latex-workshop.view.pdf.internal.synctex.keybinding": "ctrl-click",
+    "editor.wordWrap": "on", //自动换行
+    "terminal.integrated.defaultProfile.windows": "Git Bash" // 在Windows上设置Git Bash为默认
     // ======================== LaTeX 设置 END ========================
 }
